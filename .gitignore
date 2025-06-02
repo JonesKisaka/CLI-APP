@@ -1,0 +1,33 @@
+# Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace files
+*.test
+*.out
+
+# Dependency directories (Go modules)
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Binaries
+tui-cli
+docker-ps-tui
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# GitHub workflow artifacts
+.github/workflows/*.log
